@@ -902,7 +902,8 @@ div.tparrows.tp-rightarrow:before {
 }
 /* why choose us slider */
 .why-choose-us-slider-bg {
-  background-image: url("../../img/banner/why-chose-v2.jpg");
+    /*background-image: url("../../img/banner/why-chose-v2.jpg");*/
+    background-image: url('../../img/resized/space-view-of-earth-lights.jpg');
 }
 .specialty-slider-navwrap .ch-trns-white {
   background: transparent;
