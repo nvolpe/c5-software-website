@@ -4,9 +4,18 @@
     display: block;
 }
 
+.team-member-images {
+    max-height: 500px;
+}
+
 .background-img-css {
     background: url('../../img/banner/Denver_Skyline_big_edit.jpg');
     background-repeat:no-repeat;
     background-position: top center;
     background-size: 100%;
+}
+
+.row{
+  margin-top: 10px;
+  margin-bottom: 10px
 }
