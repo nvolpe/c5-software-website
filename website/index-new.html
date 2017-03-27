@@ -20,6 +20,9 @@
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700italic,700,500italic,900' rel='stylesheet' type='text/css'>
 
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/libs/material-design-iconic-font/css/material-design-iconic-font.min.css">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
@@ -316,7 +319,7 @@
                                 <!-- start section title -->
                                 <div class="text-center section-heading">
                                     <h2 class="section-title">why chose us</h2>
-                                    <h3 class="section-subtitle">We combine the best of our skills with new innovative technologies to deliver intelligent software.</h3>
+                                    <h3 class="section-subtitle">We combine the best of our skills with the newest technologies to deliver intelligent software.</h3>
                                 </div>
                                 <!-- end section title -->
                                 <div class="inside-has-slider">
@@ -646,7 +649,7 @@
                     <!-- start section title -->
                     <div class="text-center section-heading">
                         <h2 class="section-title">OUR WORK</h2>
-                        <h3 class="section-subtitle">New stunning projects for our amazing clients</h3>
+                        <h3 class="section-subtitle">We love software</h3>
                     </div>
                     <!-- end section title -->
 
@@ -661,7 +664,7 @@
                                         <li class="filter" data-target=".web">Web</li>
                                         <li class="filter" data-target=".gis">GIS</li>
                                         <li class="filter" data-target=".mobile">Mobile</li>
-                                        <li class="filter" data-target=".open-source">Open Source</li>
+                                        <li class="filter" data-target=".ecommerce">eCommerce</li>
                                     </ul>
                                     <!-- end portfolio filter items -->
 
@@ -673,12 +676,12 @@
                             <div class="clearfix protfolio-items">
 
                                 <!-- start single portfolio item with content pop-up and attachment preview -->
-                                <div id="portfolio-01" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio">
+                                <div id="portfolio-01" class="col-xxs-6 col-xs-6 col-sm-3 single-portfolio web gis">
                                     <div class="portfolio-item">
-                                        <a href="portfolio/custom-popups/popup-01/preview.html" class="portfolio-custom-popup">
+                                        <a href="http://esri.github.io/100-lines-or-less-js/geohappenings/" target="_blank">
                                             <!-- start portfolio image -->
                                             <div class="protfolio-image">
-                                                <img src="img/resized/python.png" />
+                                                <img class="img-responsive" src="img/work/geohappenings-android.png" />
                                             </div>
                                             <!-- end portfolio image -->
                                         </a>
@@ -686,14 +689,14 @@
                                 </div>
                                 <!-- end single portfolio item -->
                                 <!-- start single portfolio item with details page ( style 1 ) -->
-                                <div id="portfolio-02" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile gis">
+                                <div id="portfolio-02" class="col-xxs-6 col-xs-6 col-sm-3 single-portfolio web">
                                     <div class="portfolio-item">
-                                        <a href="portfolio/single-pages/portfolio-single-01.html" target="_blank">
+                                        <a href="http://www.marykateandco.com/" target="_blank">
 
                                             <!-- start portfolio image -->
                                             <div class="protfolio-image">
                                                 <!--<img class="img-responsive" src="img/tech-stack/HTML5_Logo_512.png" />-->
-                                                <img src="img/tech-stack-resize/html5.png" />
+                                                <img class="img-responsive" src="img/work/marykate-android.jpg" />
                                             </div>
                                             <!-- end portfolio image -->
                                         </a>
@@ -701,12 +704,12 @@
                                 </div>
                                 <!-- end single portfolio item-->
                                 <!-- start single portfolio item with details page ( style 2 ) -->
-                                <div id="portfolio-03" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web open-source">
+                                <div id="portfolio-03" class="col-xxs-6 col-xs-6 col-sm-3 single-portfolio web ecommerce">
                                     <div class="portfolio-item">
-                                        <a href="portfolio/single-pages/portfolio-single-02.html" target="_blank">
+                                        <a href="http://raveright.com/" target="_blank">
                                             <!-- start portfolio image -->
                                             <div class="protfolio-image">
-                                                <img src="img/resized/c-sharp-tutors-online.png" />
+                                                <img class="img-responsive" src="img/work/raveright.jpg" />
                                             </div>
                                             <!-- end portfolio image -->
                                         </a>
@@ -714,227 +717,23 @@
                                 </div>
                                 <!-- end single portfolio item -->
                                 <!-- start single portfolio item with details page ( style 3 ) -->
-                                <div id="portfolio-04" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web gis open-source">
+                                <div id="portfolio-04" class="col-xxs-6 col-xs-6 col-sm-3 single-portfolio gis mobile">
                                     <div class="portfolio-item">
-                                        <a href="portfolio/single-pages/portfolio-single-03.html" target="_blank">
+                                        <a href="http://www.5280.com/news/science/digital/2015/05/3-apps-help-make-colorado-better-place-business" target="_blank">
 
                                             <!-- start portfolio image -->
                                             <div class="protfolio-image">
-                                                <img src="img/resized/backbone.png" />
+                                                <img class="img-responsive" src="img/work/flow.jpg" />
                                             </div>
                                             <!-- end portfolio image -->
                                         </a>
                                     </div>
                                 </div>
                                 <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-05" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web gis">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio5.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img class="img-responsive" src="img/resized/marionettelogo.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-06" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/angular.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-07" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/android.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-08" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/Apple-Apple.svg.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-09" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/ionic_logo.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-10" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/esri-10GlobeLogo_sRGB_.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-11" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/geoserver.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-12" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/Google-Maps.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-13" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/leaflet.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-14" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/mapbox.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-15" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/Microsoft_.NET_logo.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-16" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/PostGIS_logo.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-17" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/QGis_Logo.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-                                <!-- start single portfolio item with image pop-up with gallery -->
-                                <div id="portfolio-18" class="col-xxs-6 col-xs-6 col-sm-4 single-portfolio web mobile">
-                                    <div class="portfolio-item">
-                                        <a href="img/portfolio/popup/portfolio6.jpg" class="portfolio-default-popup">
-
-                                            <!-- start portfolio image -->
-                                            <div class="protfolio-image">
-                                                <img src="img/resized/sqlserver.png" />
-                                            </div>
-                                            <!-- end portfolio image -->
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end single portfolio item -->
-
                             </div>
                             <!-- end portfolio items -->
                             <!-- Portfolio ajax div, it's a hidden div need for ajax loading -->
                             <div data-action="portfolioInitItem" class="portfolio-ajax-hidden-div"></div>
-
-                            <!-- start portfolio load more button -->
-                            <div class="text-center load-portfolio wow fadeInUpSmall" data-wow-duration="1s">
-                                <button data-action="portfolioLoadItem" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect btn-default btn-highlight">LOAD MORE</button>
-                            </div>
-                            <!-- end portfolio load more button -->
-
                         </div>
                     </div>
                 </div>
@@ -966,10 +765,8 @@
                                         <!-- team member role or designation-->
                                         <div class="member-role">Financial Operations</div>
                                         <div class="member-toggle">
-                                            <ul class="clearfix social member-social hover-round">
-                                                <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+                                            <ul class="clearfix social member-social hover-round member-social-edit">
+                                                <li><i class="zmdi zmdi-pizza"></i></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -987,10 +784,10 @@
                                         <!-- team member role or designation-->
                                         <div class="member-role">Front End Developement</div>
                                         <div class="member-toggle">
-                                            <ul class="clearfix social member-social hover-round">
-                                                <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+                                            <ul class="clearfix social member-social hover-round member-social-edit">
+                                                <li><a href="http://jeremyfolds.com/"><i class="zmdi zmdi-globe-alt"></i></a></li>
+                                                <li><i class="zmdi zmdi-landscape"></i></li>
+                                                <li><i class="zmdi zmdi-bike"></i></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1009,10 +806,11 @@
                                         <!-- team member role or designation-->
                                         <div class="member-role">SEO</div>
                                         <div class="member-toggle">
-                                            <ul class="clearfix social member-social hover-round">
-                                                <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+                                            <ul class="clearfix social member-social hover-round member-social-edit">
+                                                <li><a href="http://ashleyresume.com/"><i class="zmdi zmdi-globe-alt"></i></a></li>
+                                                <li><i class="zmdi zmdi-nature"></i></li>
+                                                <li><i class="zmdi zmdi-audio"></i></li>
+                                                <li><i class="zmdi zmdi-flower-alt"></i></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1032,10 +830,9 @@
                                         <div class="member-role">Project Management</div>
                                         <div class="member-toggle">
 
-                                            <ul class="clearfix social member-social hover-round">
-                                                <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+                                            <ul class="clearfix social member-social hover-round member-social-edit">
+                                                <li><a href="#"><i class="zmdi zmdi-library"></i></a></li>
+                                                <li><a href="#"><i class="zmdi zmdi-flight-takeoff"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1056,10 +853,9 @@
                                         <div class="member-role">security analysis</div>
                                         <div class="member-toggle">
 
-                                            <ul class="clearfix social member-social hover-round">
-                                                <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+                                            <ul class="clearfix social member-social hover-round member-social-edit">
+                                                <li><a href="#"><i class="zmdi zmdi-bike"></i></a></li>
+                                                <li><a href="#"><i class="zmdi zmdi-coffee"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1079,8 +875,8 @@
                                         <!-- team member role or designation-->
                                         <div class="member-role">Geospatial Tech</div>
                                         <div class="member-toggle">
-                                            <ul class="clearfix social member-social hover-round">
-                                                <li><a href="https://www.linkedin.com/in/austin-barenberg-b5199097"><i class="zmdi zmdi-globe-alt"></i></a></li>
+                                            <ul class="clearfix social member-social hover-round member-social-edit">
+                                                <li><i class="zmdi zmdi-globe"></i></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1099,10 +895,8 @@
                                         <div class="member-role">Quant</div>
                                         <div class="member-toggle">
 
-                                            <ul class="clearfix social member-social hover-round">
-                                                <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+                                            <ul class="clearfix social member-social hover-round member-social-edit">
+                                                <li><a href="#"><i class="zmdi zmdi-reddit"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1120,10 +914,8 @@
                                         <!-- team member role or designation-->
                                         <div class="member-role">Team Lead</div>
                                         <div class="member-toggle">
-                                            <ul class="clearfix social member-social hover-round">
-                                                <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                                                <li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+                                            <ul class="clearfix social member-social hover-round member-social-edit">
+                                                <li><i class="zmdi zmdi-bike"></i></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1137,116 +929,25 @@
         <!-- end team section -->
         <!-- start testimonial and client logo section -->
         <section id="testimonial" class="section-main">
-
-            <!-- start testimonial slider section -->
-            <section class="testimonial-section">
-
-                <div class="bg-image testimonial-bg" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -25%, 0px)" data-bottom-top="transform: translate3d(0px, -75%, 0px)"></div>
-
-                <div class="overlay overlay-four">
-                    <div class="section-common-space">
-                        <!-- start testimonial slider -->
-                        <div class="testimonial-slider styled-paginantion colorsch-black" data-action="testimonialSlider">
-
-                            <!-- start single testimonial -->
-                            <div class="text-center single-testimonial wow fadeIn" data-wow-duration="1s">
-
-                                <!-- start testimonial thumbnail -->
-                                <div class="recomenders-thumb">
-                                    <img src="img/testimonial/01.png" alt="">
-                                </div>
-                                <!-- end testimonial thumbnail -->
-
-                                <div class="recomenders-info">
-                                    <!-- testimonial text -->
-                                    <p>Distinctively whiteboard interactive partnerships through client-centric ideas. Uniquely engineer future-proof testing procedures with bricks-and-clicks metrics. Authoritatively synthesize bleeding-edge supply chains through granular e-services. Monotonectally.</p>
-
-                                    <!-- recommender name and designation -->
-                                    <div><span class="recomenders-name">Jeffrey Way,</span> <span class="recomenders-role"> Nettuts+</span></div>
-                                </div>
-                            </div>
-                            <!-- end single testimonial -->
-                            <!-- start single testimonial -->
-                            <div class="text-center single-testimonial">
-
-                                <!-- start testimonial thumbnail -->
-                                <div class="recomenders-thumb">
-                                    <img src="img/testimonial/02.png" alt="">
-                                </div>
-                                <!-- end testimonial thumbnail -->
-
-                                <div class="recomenders-info">
-                                    <!-- testimonial text -->
-                                    <p>Quickly leverage existing quality action items before B2B infrastructures. Professionally disintermediate enterprise networks after go forward potentialities. Intrinsicly exploit innovative communities rather than parallel.</p>
-
-                                    <!-- recommender name and designation -->
-                                    <div><span class="recomenders-name">Paul Irish,</span> <span class="recomenders-role"> Themeforest</span></div>
-                                </div>
-                            </div>
-                            <!-- end single testimonial -->
-                            <!-- start single testimonial -->
-                            <div class="text-center single-testimonial">
-
-                                <!-- start testimonial thumbnail -->
-                                <div class="recomenders-thumb">
-                                    <img src="img/testimonial/03.png" alt="">
-                                </div>
-                                <!-- end testimonial thumbnail -->
-
-                                <div class="recomenders-info">
-                                    <!-- testimonial text -->
-                                    <p>Professionally integrate granular results through performance based content. Professionally provide access to inexpensive niches after front-end ROI. Competently synthesize backend methodologies whereas multimedia based.</p>
-
-                                    <!-- recommender name and designation -->
-                                    <div><span class="recomenders-name">Addy Osmani,</span> <span class="recomenders-role"> Codecanyon</span></div>
-                                </div>
-                            </div>
-                            <!-- end single testimonial -->
-                        </div>
-                        <!-- end testimonial slider -->
-                    </div>
-                </div>
-            </section>
-            <!-- end testimonial slider section -->
             <!-- start clients or logo slider -->
             <section class="secondary-bg-color clients">
                 <div class="section-common-space">
                     <div class="container">
                         <div class="row">
-                            <div class="client-slider" data-action="clientSlider">
-                                <div class="col-sm-3">
+                            <div>
+                                <div class="col-sm-4">
                                     <div class="single-clients">
-                                        <img src="img/logo/client1.png" alt="Client Logo">
+                                        <img src="img/goCode.png" />
                                     </div>
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-sm-4">
                                     <div class="single-clients">
-                                        <img src="img/logo/client2.png" alt="Client Logo">
+                                        <img src="https://cbsdenver.files.wordpress.com/2014/02/colorado-logo-brand-colorado.png" alt="Client Logo">
                                     </div>
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-sm-4">
                                     <div class="single-clients">
-                                        <img src="img/logo/client3.png" alt="Client Logo">
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="single-clients">
-                                        <img src="img/logo/client4.png" alt="Client Logo">
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="single-clients">
-                                        <img src="img/logo/client1.png" alt="Client Logo">
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="single-clients">
-                                        <img src="img/logo/client2.png" alt="Client Logo">
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="single-clients">
-                                        <img src="img/logo/client3.png" alt="Client Logo">
+                                        <img src="img/sos.PNG" />
                                     </div>
                                 </div>
                             </div>
@@ -1260,12 +961,12 @@
         <!-- end testimonial and client logo section -->
         
         <!-- start contact section -->
-        <section id="contact" class="section-main contact devide-50 devide-bg">
+        <section id="contact" class="section-main contact">
             <div class="container">
                 <div class="row">
 
                     <!-- start contact left section/contact address -->
-                    <div class="col-sm-12 contact-info-start">
+                    <div class="col-sm-offset-5 col-sm-6 contact-info-start">
                         <div class="section-common-space">
                             <h2 class="section-title">CONTACT US</h2>
                             <div class="contact-info">
@@ -1289,20 +990,9 @@
             <!-- start map section -->
             <div class="section bg-image-class location-on-map">
                 <div class="overlay">
-                    <div class="text-center map-content">
-                        <div class="map-buttons">
-                            <button type="button" id="map-open" class="btn-active btn btn-block btn-tranparent btn-animated from-top zmdi zmdi-chevron-down">
-                                <span>LOCATE US ON THE MAP</span>
-                            </button>
-
-                            <button type="button" id="map-close" class="btn btn-block btn-tranparent btn-animated from-bottom zmdi zmdi-chevron-up">
-                                <span>Close the map</span>
-                            </button>
-                        </div>
                         <div class="map-wrapper">
                             <div id="map"></div>
                         </div>
-                    </div>
                 </div>
             </div>
             <!-- end map section -->
@@ -1342,7 +1032,7 @@
 
     <!-- footer script start  -->
     <script>window.jQuery || document.write('<script type="text/javascript" src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-    <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=YOUR_GOOGLE_MAP_API_KEY"></script>
+    <!--<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=YOUR_GOOGLE_MAP_API_KEY"></script>-->
     <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
     <script type="text/javascript" src="assets/libs/mdl/material.min.js"></script>
     <script type="text/javascript" src="assets/js/all-plugins.js"></script>
@@ -1369,5 +1059,17 @@
     <script type="text/javascript" src="assets/js/common.js"></script>
     <script type="text/javascript" src="assets/js/all-components.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
+
+
+
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibnZvbHBlIiwiYSI6ImNqMHJ1YjRpeDAyMzAyeW81aWUzN3gyMmwifQ.YQlLH8yHJqOOvGgs2EIkeA';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/nvolpe/cj0ruth4z00av2smpdc2jwg0r'
+        });
+    </script>
+
 </body>
 </html>
