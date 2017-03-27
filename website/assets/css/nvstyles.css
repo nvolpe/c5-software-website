@@ -13,9 +13,55 @@
     background-repeat:no-repeat;
     background-position: top center;
     background-size: 100%;
+    height: 475px;
 }
 
 .row{
   margin-top: 10px;
   margin-bottom: 10px
 }
+
+
+.title-c5 {
+    color: #AA00FF;
+    font-size: 6em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+}
+
+.title-pipe {
+    color: #00C853;
+    font-size: 6em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+}
+
+.title-software {
+    color: #0091EA;
+    font-size: 6em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+}
+
+
+.background-header-color {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.title-container {
+    line-height: normal;
+}
+
+
+.home-height {
+   height: 600px;
+}
+
+.section-common-space-custom {
+    padding-top: 0px;
+}
+
+
+
+
+
