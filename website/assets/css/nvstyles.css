@@ -84,3 +84,31 @@
 
 
 
+@media (max-width: 991px) {
+    
+    .title-c5 {
+        color: #AA00FF;
+        font-size: 2em;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: bolder;
+    }
+
+    .title-pipe {
+        color: #00C853;
+        font-size: 2em;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: bolder;
+    }
+
+    .title-software {
+        color: #0091EA;
+        font-size: 2em;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: bolder;
+    }
+
+}
+
+
+
+
