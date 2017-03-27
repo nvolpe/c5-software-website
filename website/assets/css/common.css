@@ -1238,14 +1238,14 @@ nav.nav-typo ul li a {
   display: block;
   padding: 42px 15px 39px;
   letter-spacing: .6px;
-  color: #333333;
+  color: #0091EA;
   border-bottom: 3px solid transparent;
   white-space: nowrap;
 }
 .main-nav ul li a:hover,
 .main-nav ul li:hover > a,
 .main-nav ul li.active > a {
-  color: #ff5252;
+  color: #00C853;
 }
 .main-nav > ul > li {
   display: inline-block;
@@ -1445,14 +1445,14 @@ nav.nav-typo ul li a {
   margin: 0;
 }
 .main-header.is-sticky .main-nav ul li a {
-  color: rgba(255, 255, 255, 0.65);
+  color: #0091EA;
   padding: 18px 15px 15px;
 }
 .main-header.is-sticky .main-nav ul li a:hover {
-  color: #ffffff;
+  color: #00C853;
 }
 .main-header.is-sticky .main-nav ul li.active a {
-  color: #fff;
+  color: #AA00FF;
   border-bottom-color: #ff5252;
 }
 .blog-page .matx-logo img.logo-dark {

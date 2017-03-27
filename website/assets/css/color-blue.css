@@ -3,7 +3,7 @@
   background-color: #0091EA;
 }
 .btn-highlight:hover {
-  background-color: #0091EA;
+  background-color: #00C853;
 }
 .btn-highlight:active {
   background-color: #0091EA;
@@ -216,55 +216,56 @@
 .main-nav {
   /*matx desktop submenu*/
 }
-.main-nav ul li a:hover,
-.main-nav ul li:hover > a,
+.main-nav ul li a:hover .main-nav ul li:hover > a {
+    color: #00C853;
+}
 .main-nav ul li.active > a {
-  color: #0091EA;
+  color: #AA00FF;
 }
 .main-nav > ul > li ul li.menu-item-has-children:hover > a:after {
   color: #0091EA;
 }
 .main-nav > ul > li ul li:hover > a {
-  color: #0091EA !important;
+  color: #00C853 !important;
 }
 .main-nav > ul > li ul li a:hover {
-  color: #0091EA !important;
+  color: #00C853 !important;
 }
 .color-schema-white .main-nav ul li a:hover {
-  color: #0091EA;
+  color: #00C853;
 }
 .color-schema-white .main-nav ul li:hover a {
-  color: #0091EA;
+  color: #00C853;
 }
 .color-schema-white .main-nav ul li.active a {
-  color: #0091EA;
+  color: #00C853;
 }
 .color-schema-white .main-nav ul li a:hover {
-  color: #0091EA;
+  color: #00C853;
 }
 .color-schema-white .main-nav ul li:hover a {
-  color: #0091EA;
+  color: #00C853;
 }
 .color-schema-white .main-nav ul li.active a {
   color: #0091EA;
 }
 .main-header.is-sticky .main-nav ul li.active a {
-  border-bottom-color: #0091EA;
+  border-bottom-color: #00C853;
 }
 .thumb-slides-container.owl-theme .owl-controls .owl-page.active span {
   background: #0091EA;
 }
 .mdl-card__title-text a:hover {
-  color: #0091EA;
+  color: #00C853;
 }
 .mdl-card__actions.mdl-card--border a.blog-comments:hover {
-  color: #0091EA;
+  color: #00C853;
 }
 .mdl-card__actions.mdl-card--border a.blog-share:hover {
-  color: #0091EA;
+  color: #00C853;
 }
 .footer-social li a:hover {
-  color: #0091EA;
+  color: #00C853;
 }
 /*=========== From main.css ===============*/
 .styled-paginantion .owl-page.active span {
@@ -282,13 +283,13 @@
   color: #0091EA;
 }
 .single-imodule.rbodard-imodule:hover .icon-box {
-  background-color: #0091EA;
+  background-color: #00C853;
 }
 .single-imodule.imodule-slide .icon-box i {
   color: #0091EA;
 }
 .single-imodule.hov-white-red:hover .icon-box {
-  background: #0091EA;
+  background: #00C853;
 }
 .single-imodule.csch-white-white .icon-box i {
   color: #0091EA;
@@ -348,10 +349,10 @@
   background: #0091EA;
 }
 .member-social li a:hover {
-  color: #0091EA;
+  color: #00C853;
 }
 .tm-edition2 .social li a:hover {
-  color: #0091EA;
+  color: #00C853;
 }
 .tm-edition2 .member-info .member-role {
   color: #0091EA;
@@ -384,23 +385,23 @@
   color: #0091EA;
 }
 .fullwidh-pagination a:hover {
-  color: #0091EA;
+  color: #00C853;
 }
 /*=========== From blog.css ===============*/
 .blog-page .main-nav ul li a:hover {
-  color: #0091EA;
+  color: #00C853;
 }
 .blog-page .main-nav ul li.active a {
-  color: #0091EA;
+  color: #00C853;
 }
 .search-bar > .search-bg {
   background: #0091EA;
 }
 .single-post-page .share-social li a:hover > * {
-  color: #0091EA;
+  color: #00C853;
 }
 .post-meta a:hover {
-  color: #0091EA;
+  color: #00C853;
 }
 .post-entry ul li:before {
   background-color: #0091EA;
@@ -409,11 +410,11 @@
   border-color: #0091EA;
 }
 span.comment-reply:hover {
-  background: #0091EA;
+  background: #00C853;
 }
 .widget ul li a:hover {
   color: #0091EA;
 }
 .tagcloud a:hover {
-  background-color: #0091EA;
+  background-color: #00C853;
 }
